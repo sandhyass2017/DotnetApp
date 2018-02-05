@@ -1,6 +1,6 @@
 ---
 applications:
-- name: ENVIRONMENTAPP
+- name: ENVIRONMENT
   buildpack: hwc_buildpack
   stack: windows2012R2
   path: ./ViewEnvironment/
