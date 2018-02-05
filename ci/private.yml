@@ -1,0 +1,77 @@
+cf-api: https://api.system.dev.digifabricpcf.com
+cf-user: Deyvasigamani.sundaramurthy@cognizant.com
+cf-password: Vasansund@3
+cf-org: onboarding
+cf-space: DEV
+
+email-username: cognizantonboarding2017@gmail.com
+email-password: cognizantonboarding
+email-from: cognizantonboarding2017@gmail.com
+
+pws-app-suffix: environment #CF app name
+pws-app-suffix-new: latest-environment
+pws-app-domain: app.dev.digifabricpcf.com
+
+git-release-repository: DotnetApp
+git-release-owner: sandhyass2017
+git-release-access_token: 2522a32fd7e1fdb6b03b47667733bc6110a82ae4
+
+git-url: git@github.com:sandhyass2017/DotnetApp.git
+git-branch: master
+git-user: sandhyass2017
+git-private-key: |
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,403B71F394FFBF67CD010C293B17F419
+
+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
+-----END RSA PRIVATE KEY-----
+
