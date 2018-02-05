@@ -13,17 +13,17 @@ git-release-access_token: 8b1e3541e4640c9339aa235ed46c791a0c5ea475
 git-username: sandhyass2017
 git-url: git@github.com:sandhyass2017/DotnetApp.git
 git-branch: master
-git-private-key:
------BEGIN RSA PUBLIC KEY-----
-MIICCgKCAgEAyA85BMhvE6MxMVuVqj/5hV4utiooq27xwc0IBUlBdpoMs6XlzQXg
-g3JXeNJAwLWhRvIpV6PV0cX7P6spWE2R9bDAc01aDGgj9Apc5UOG9vSNleFKDewn
-5sEJbV+tbIxEw2y2NOVLbdk+TM0KvLJ2ZzulA+CqxdTQBNgwwlbxqY8kBkOTX7k8
-rJ0j/DURi8ydhldN69S/fpda9GJwG+av5ZWCfhNhkZ/sR4zHg/W7aEslGyS4BjQ4
-xUMIyvNqg2C7ZcnIyrNwL7V5UG/IBYLh9g4YSXNGTLjFZKmzILjymXAqC1z3aHw+
-tIIFmE3W48uM2TmfY9vTm6jfIhkRP+3oTYX43EgfHxIXH8ERNGjkOV9r6IO+91ZU
-hQwWyW1BlAmuKwOa6ElelLjzPBU2C9Qrdte94Y81JocjBGt6nkZl1/c/8+2qvX/h
-7FhmeYp0aGbazRHiivWqx36NuNbl4OH0p3XpogQewAEY1WkoXpjbOagLY2RkkImS
-DA2I5yn7+VrUtuvPtJ+iqYBtVcp19jpqCfyi92zfO/ADIJgHtSUul/sxYaT29eYb
-lyBXg2YEVjbO6dntcqFE3YWs+rh5x+b1f3ybRqbWFZiGp8nn9I7IZvzPfOcj9oJE
-2C5kpwkROZ9XdxWearaCf+lIf3z3QZIKe0+MpVg4LAICwijHiQUPYHcCAwEAAQ==
------END RSA PUBLIC KEY-----
+git-private-key: |
+    -----BEGIN RSA PUBLIC KEY-----
+    MIICCgKCAgEAyA85BMhvE6MxMVuVqj/5hV4utiooq27xwc0IBUlBdpoMs6XlzQXg
+    g3JXeNJAwLWhRvIpV6PV0cX7P6spWE2R9bDAc01aDGgj9Apc5UOG9vSNleFKDewn
+    5sEJbV+tbIxEw2y2NOVLbdk+TM0KvLJ2ZzulA+CqxdTQBNgwwlbxqY8kBkOTX7k8
+    rJ0j/DURi8ydhldN69S/fpda9GJwG+av5ZWCfhNhkZ/sR4zHg/W7aEslGyS4BjQ4
+    xUMIyvNqg2C7ZcnIyrNwL7V5UG/IBYLh9g4YSXNGTLjFZKmzILjymXAqC1z3aHw+
+    tIIFmE3W48uM2TmfY9vTm6jfIhkRP+3oTYX43EgfHxIXH8ERNGjkOV9r6IO+91ZU
+    hQwWyW1BlAmuKwOa6ElelLjzPBU2C9Qrdte94Y81JocjBGt6nkZl1/c/8+2qvX/h
+    7FhmeYp0aGbazRHiivWqx36NuNbl4OH0p3XpogQewAEY1WkoXpjbOagLY2RkkImS
+    DA2I5yn7+VrUtuvPtJ+iqYBtVcp19jpqCfyi92zfO/ADIJgHtSUul/sxYaT29eYb
+    lyBXg2YEVjbO6dntcqFE3YWs+rh5x+b1f3ybRqbWFZiGp8nn9I7IZvzPfOcj9oJE
+    2C5kpwkROZ9XdxWearaCf+lIf3z3QZIKe0+MpVg4LAICwijHiQUPYHcCAwEAAQ==
+    -----END RSA PUBLIC KEY-----

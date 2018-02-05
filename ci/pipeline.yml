@@ -8,7 +8,9 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/cloudfoundry-incubator/NET-sample-app.git
+    uri: {{git-url}}
+    username: {{git-username}}
+    private_key: {{git-private-key}}
 - name: PWS
   type: cf
   source:
