@@ -8,9 +8,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/sandhyass2017/DotnetApp.git
-    username: {{git-username}}
-    private_key: {{git-private-key}}
+    uri: https://github.com/cloudfoundry-incubator/NET-sample-app.git
 - name: PWS
   type: cf
   source:
