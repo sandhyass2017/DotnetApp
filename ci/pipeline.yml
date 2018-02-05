@@ -9,6 +9,8 @@ resources:
   source:
     branch: master
     uri: https://github.com/sandhyass2017/DotnetApp.git
+    username: {{git-username}}
+    password: {{git-password}}
 - name: PWS
   type: cf
   source:
