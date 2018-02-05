@@ -9,8 +9,8 @@ image_resource:
 
 
 inputs:
-- name: resource-git-onboarding_api
+- name: concourse-pipeline-samples
 - name: current-app-info
 
 run:
-  path: resource-git-onboarding_api/ci/tasks/update-routes.sh
+  path: concourse-pipeline-samples/blue-green-app-deployment/ci/tasks/update-routes
