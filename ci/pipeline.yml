@@ -29,11 +29,11 @@ jobs:
   - get: concourse-pipeline-samples
     trigger: true
   - task: prepare-app-manifest
-    file: concourse-pipeline-samples/DotnetApp/ci/tasks/app-manifest-prep.yml
+    file: concourse-pipeline-samples/ci/tasks/app-manifest-prep.yml
     params:
       PWS_APP_SUFFIX: {{pws-app-suffix}}
   - put: PWS
     params:
       manifest: app-manifest-output/manifest.yml
-      path: concourse-pipeline-samples/DotnetApp/bgd-app
+      path: concourse-pipeline-samples/bgd-app
       
