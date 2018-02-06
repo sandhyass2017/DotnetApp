@@ -3,6 +3,6 @@
 set -xe
 echo "inside appmanifestfile"
 
-sed "s/APPNAME/$(cat $PWS_APP_SUFFIX/" ./concourse-pipeline-samples/manifests/manifest.yml > ./app-manifest-output/manifest.yml
+sed "s/APPNAME/$PWS_APP_SUFFIX_NEW/" ./concourse-pipeline-samples/manifests/manifest.yml > ./app-manifest-output/manifest.yml
 
 cat ./app-manifest-output/manifest.yml
