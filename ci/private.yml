@@ -3,5 +3,4 @@ deploy-password: Vasansund@3
 pws-organization: onboarding
 pws-space: DEV
 pws-api: https://api.system.dev.digifabricpcf.com
-pws-app-suffix: app-hello
 pws-app-domain: app.dev.digifabricpcf.com
