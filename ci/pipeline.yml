@@ -14,13 +14,12 @@ resources:
 
 jobs:
 - name: deploy-app
-  serial: true
   public: true
   plan:
   - get: concourse-pipeline-samples
     trigger: true
   - task: prepare-app-manifest
-    file: concourse-pipeline-samples/ci/tasks/app-manifest-prep.yml
+    file: concourse-pipeline-samples/ci/tasks/deploy-app.yml
     params:
       PWS_API: {{pws-api}}
       PWS_ORG: {{pws-organization}}
