@@ -1,8 +1,18 @@
 #!/bin/bash
 
-set -xe
-echo "inside appmanifestfile"
+set -ex
+pwd
+env
 
-sed "s/APPNAME/$PWS_APP_SUFFIX_NEW/" ./concourse-pipeline-samples/manifests/manifest.yml > ./app-manifest-output/manifest.yml
+echo "Login to CF"
+cf api $PWS_API --skip-ssl-validation
 
-cat ./app-manifest-output/manifest.yml
+cf login -u $PWS_USER -p $PWS_PWD -o "$PWS_ORG" -s "$PWS_SPACE"
+
+cf apps
+
+cf push environment -s windows2012R2 -b hwc_buildpack -p ./ViewEnvironment/
+
+cf apps
+
+echo "App started"

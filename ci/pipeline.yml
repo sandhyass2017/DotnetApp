@@ -31,9 +31,9 @@ jobs:
   - task: prepare-app-manifest
     file: concourse-pipeline-samples/ci/tasks/app-manifest-prep.yml
     params:
-      PWS_APP_SUFFIX: {{pws-app-suffix}}
-  - put: PWS
-    params:
-      manifest: app-manifest-output/manifest.yml
-      path: ./ViewEnvironment/
+      PWS_API: {{pws-api}}
+      PWS_USER:{{deploy-username}}
+      PWS_PWD: {{deploy-password}}
+      PWS_ORG: {{pws-organization}}
+      PWS_SPACE: {{pws-space}}
       
