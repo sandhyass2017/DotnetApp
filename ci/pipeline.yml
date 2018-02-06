@@ -8,9 +8,9 @@ resources:
   type: git
   source:
     branch: master
-    uri: {{git-url}}
-    username: {{git-username}}
-    private_key: {{git-private-key}}
+    uri: https://github.com/sandhyass2017/DotnetApp.git
+    username: sandhyass2017
+    password: sep@2017
 - name: PWS
   type: cf
   source:
