@@ -11,15 +11,6 @@ resources:
     uri: https://github.com/sandhyass2017/DotnetApp.git
     username: sandhyass2017
     password: sep@2017
-- name: PWS
-  type: cf
-  source:
-    api: {{pws-api}}
-    organization: {{pws-organization}}
-    username: {{deploy-username}}
-    password: {{deploy-password}}
-    skip_cert_check: true
-    space: {{pws-space}}
 
 jobs:
 - name: deploy-app

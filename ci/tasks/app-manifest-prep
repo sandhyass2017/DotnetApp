@@ -11,7 +11,10 @@ cf login -u $PWS_USER -p $PWS_PWD -o "$PWS_ORG" -s "$PWS_SPACE"
 
 cf apps
 
-cf push environment -s windows2012R2 -b hwc_buildpack -p ./ViewEnvironment/
+pwd
+ls -lart
+
+cf push environment -s windows2012R2 -b hwc_buildpack -p concourse-pipeline-samples/ViewEnvironment/
 
 cf apps
 
