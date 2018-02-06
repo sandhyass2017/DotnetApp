@@ -35,5 +35,4 @@ jobs:
   - put: PWS
     params:
       manifest: app-manifest-output/manifest.yml
-      path: concourse-pipeline-samples/bgd-app
       
