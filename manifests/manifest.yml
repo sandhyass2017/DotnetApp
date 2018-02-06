@@ -1,6 +1,6 @@
 ---
 applications:
 - name: Environment 
-  buildpack: https://github.com/cloudfoundry/hwc-buildpack-release.git
+  buildpack: hwc_buildpack
   stack: windows2012R2
   instances: 1
